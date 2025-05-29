@@ -1,0 +1,46 @@
+# Archivos generados por Maven
+/target/
+
+# Maven Wrapper (incluir explícitamente)
+!.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de logs generados por la aplicación
+*.log
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+# Archivos y carpetas específicas de desarrollo local
+*.war
+*.ear
+
+# Archivos de configuración local (opcional)
+# application.properties
+!application.yml  # Incluir application.yml si lo usas en lugar de properties
